@@ -1,0 +1,4 @@
+interface:
+  display_name: "QFluent UI Builder"
+  short_description: "Build reusable QFluentWidgets UI plans and scaffolds."
+  default_prompt: "Use $qfluentwidgets-ui-builder to design and scaffold a PySide6 QFluentWidgets interface for my new requirement."
