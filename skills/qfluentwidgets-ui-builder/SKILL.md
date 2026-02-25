@@ -13,11 +13,8 @@ Deliver implementation-ready outputs instead of generic advice.
 ## Workflow
 
 1. Normalize requirement inputs:
-- Goal and target users
-- Screens and pages
-- Core interactions
-- Data volume and constraints
-- In scope and out of scope
+- Read `references/requirement-template.md`
+- Capture required fields before architecture decisions
 
 2. Select a layout pattern:
 - Read `references/layout-patterns.md`
@@ -43,6 +40,10 @@ Deliver implementation-ready outputs instead of generic advice.
   - Code Plan
 - Keep output decision-complete for implementation
 
+6. Run quality self-check:
+- Read `references/review-checklist.md`
+- Ensure all required evidence and acceptance items are present
+
 ## Output Rules
 
 1. Always include explicit file and module boundaries.
@@ -60,6 +61,9 @@ Deliver implementation-ready outputs instead of generic advice.
 ## References
 
 - Source index: `references/source-index.md`
+- Requirement template: `references/requirement-template.md`
 - Component mapping: `references/component-map.md`
 - Layout patterns: `references/layout-patterns.md`
 - Output contract: `references/output-contract.md`
+- Review checklist: `references/review-checklist.md`
+- End-to-end cases: `references/cases.md`

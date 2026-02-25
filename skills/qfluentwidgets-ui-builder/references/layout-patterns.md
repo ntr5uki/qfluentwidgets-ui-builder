@@ -13,12 +13,15 @@ Default routes:
 
 Suggested files:
 1. `main.py`
-2. `src/<app>/app.py`
-3. `src/<app>/main_window.py`
-4. `src/<app>/pages/base_page.py`
-5. `src/<app>/pages/home_page.py`
-6. `src/<app>/pages/viewer_page.py`
-7. `src/<app>/pages/config_page.py`
+2. `src/<package_name>/app.py`
+3. `src/<package_name>/main_window.py`
+4. `src/<package_name>/pages/base_page.py`
+5. `src/<package_name>/pages/home_page.py`
+6. `src/<package_name>/pages/viewer_page.py`
+7. `src/<package_name>/pages/config_page.py`
+
+Real path example:
+- `src/py_h5_data_ui/main_window.py`
 
 ## Pattern B: Data Tool with Task Workflow
 
@@ -51,10 +54,10 @@ Default routes:
 
 Key additions:
 - Config schema and persistence adapter
-- Import/export settings flow
+- Import or export settings flow
 
 ## Selection Rule
 
 1. Choose the simplest pattern that satisfies current scope.
 2. Lock route keys early to reduce refactor cost.
-3. Keep first iteration to skeleton + placeholders.
+3. Keep first iteration to skeleton plus placeholders.

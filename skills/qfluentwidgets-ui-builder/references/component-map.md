@@ -1,16 +1,16 @@
 ﻿# Component Map
 
-## Navigation & Window
+## Navigation and Window
 
 1. Multi-page shell with side navigation
 - Component: `MSFluentWindow`
 - Doc: https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/fluent_window/index.html
 - Example: https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/PySide6/examples/window/ms_fluent_window
-- Adaptation: register pages via `addSubInterface`, set default item by route/objectName
+- Adaptation: register pages via `addSubInterface`, set default item by route or objectName
 
-2. Tree/complex navigation
-- Component: `FluentWindow` + navigation tree
-- Doc: same window API page
+2. Tree or complex navigation
+- Component: `FluentWindow` with navigation tree
+- Doc: https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/fluent_window/index.html
 - Example: https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/PySide6/examples/window/fluent_window
 - Adaptation: use parent route relationships for nested pages
 
@@ -20,21 +20,21 @@
 - Component: `TableView`
 - Doc: https://qfluentwidgets.com/zh/pages/components/tableview/
 - Example: https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/PySide6/examples/view
-- Adaptation: start with simple model, then pagination/filtering
+- Adaptation: start with simple model, then pagination and filtering
 
 2. List browsing
 - Component: `ListView`
 - Doc: https://qfluentwidgets.com/zh/pages/components/listview/
 - Example: https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/PySide6/examples/view
-- Adaptation: pair with search/filter bar
+- Adaptation: pair with search or filter bar
 
 3. Tree data
 - Component: `TreeView`
 - Doc: https://qfluentwidgets.com/zh/pages/components/treeview/
 - Example: https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/PySide6/examples/view
-- Adaptation: use when hierarchy is real, not simulated
+- Adaptation: use only when hierarchy is real
 
-## Forms & Settings
+## Forms and Settings
 
 1. Settings hub
 - Component: `SettingCard` family
@@ -54,7 +54,7 @@
 - Example: https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/PySide6/examples/basic_input
 - Adaptation: preserve defaults and reset strategy
 
-## Feedback & Status
+## Feedback and Status
 
 1. Non-blocking notification
 - Component: `InfoBar`

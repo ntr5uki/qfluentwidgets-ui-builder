@@ -1,4 +1,10 @@
-interface:
+﻿interface:
   display_name: "QFluent UI Builder"
   short_description: "Build reusable QFluentWidgets UI plans and scaffolds."
+  icon_small: "./assets/icon-small.svg"
+  icon_large: "./assets/icon-large.svg"
+  brand_color: "#0F6CBD"
   default_prompt: "Use $qfluentwidgets-ui-builder to design and scaffold a PySide6 QFluentWidgets interface for my new requirement."
+
+policy:
+  allow_implicit_invocation: false

@@ -2,7 +2,7 @@
 
 ## Default Output Mode
 
-Always provide **two sections** in this order:
+Always provide two sections in this order:
 1. Design Plan
 2. Code Plan
 
@@ -23,11 +23,15 @@ Always provide **two sections** in this order:
 ## 2) Code Plan (required fields)
 
 1. File tree
-2. Public interfaces/classes/functions to add
-3. Initialization/data flow sequence
+2. Public interfaces or classes or functions to add
+3. Initialization and data flow sequence
 4. Error handling strategy
-5. Test scenarios (smoke + behavior)
+5. Test scenarios (smoke plus behavior)
 6. Rollout order
+7. Minimal runnable code block requirement:
+- include entry file
+- include main window
+- include at least one page module
 
 ## Quality Bar
 
