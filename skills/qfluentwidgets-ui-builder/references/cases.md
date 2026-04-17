@@ -32,3 +32,16 @@ Expected output skeleton:
 1. Design Plan with Pattern C.
 2. Code Plan includes settings schema and persistence boundary.
 3. Component mapping includes `SettingCard` family and input controls.
+
+## Case 4: Parameter-heavy desktop tuning tool
+
+Prompt:
+- Build a PySide6 QFluentWidgets desktop tool with a dense parameter panel on the left and image or chart preview on the right.
+- Support input file path, output directory path, and a background run action.
+- Keep Fluent visual consistency in dark theme and avoid native Qt-looking surfaces.
+
+Expected output skeleton:
+1. Design Plan defines left card-based parameter area, right preview area, and chosen route or single-page shell pattern.
+2. Code Plan defines theme initialization, surface and scroll viewport strategy, and Fluent label usage for parameter rows.
+3. Component mapping includes `CardWidget` or `SettingCard`, `CaptionLabel` or `BodyLabel`, `SmoothScrollArea`, `LineEdit` with elide and tooltip strategy, plus `ProgressRing` and `InfoBar`.
+4. Interaction plan defines `idle -> running -> success/failure -> ready-to-rerun` worker transitions and button enablement rules.

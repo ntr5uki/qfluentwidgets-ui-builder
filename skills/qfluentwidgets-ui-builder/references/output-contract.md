@@ -25,10 +25,15 @@ Always provide two sections in this order:
 1. File tree
 2. Public interfaces or classes or functions to add
 3. Initialization and data flow sequence
-4. Error handling strategy
-5. Test scenarios (smoke plus behavior)
-6. Rollout order
-7. Minimal runnable code block requirement:
+4. Theme initialization strategy
+5. Surface and background strategy
+6. Visible label strategy
+7. Error handling strategy
+8. Worker lifecycle and button state transitions when async tasks exist
+9. Long-path display strategy when path inputs exist
+10. Test scenarios (smoke plus behavior)
+11. Rollout order
+12. Minimal runnable code block requirement:
 - include entry file
 - include main window
 - include at least one page module
@@ -39,3 +44,5 @@ Always provide two sections in this order:
 2. Traceable: every major component has official reference.
 3. Minimal-first: runnable skeleton before advanced features.
 4. Explicit assumptions: list defaults when user leaves gaps.
+5. Visual consistency: theme, surface, and label decisions are explicit.
+6. Interaction completeness: async tasks include recovery and rerun behavior.

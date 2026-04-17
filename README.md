@@ -12,7 +12,7 @@ This repository distributes Codex skills for PySide6 + QFluentWidgets UI plannin
 uv run python $env:USERPROFILE\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py `
   --repo <owner>/qfluentwidgets-ui-builder `
   --path skills/qfluentwidgets-ui-builder `
-  --ref v1.0.0
+  --ref v1.1.0
 ```
 
 After install, restart Codex to load the skill.
